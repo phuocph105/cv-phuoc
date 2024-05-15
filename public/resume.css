@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Barlow-Regular';
+    src: url('../assets/font-awesome/webfonts/Barlow-Regular.ttf');
+}
+@font-face {
+    font-family: 'Barlow-Medium';
+    src: url('../assets/font-awesome/webfonts/Barlow-Medium.ttf');
+}
+
+body,html{
+    font-family: 'Barlow-Regular', 'Courier New', Courier, monospace;
+    position: relative;
+    background-color: #ecf2f5;
+}
+.ff-barlow-m{
+    font-family: 'Barlow-Medium';
+}
+@media (min-width: 992px) {
+    .sidebar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-php{
+        width: 18rem !important;
+        border-radius: 20px;
+        min-height: 70vh;
+        margin-top: 6rem;
+        left: unset !important;
+        box-shadow: 0px 2px 8px 0px #0000001a;
+    }
+
+    .rightside-php{
+        margin-top: 20px;
+        padding-top: 0 !important;
+    }
+
+    .detail{
+        margin-left: 310px !important;
+        margin-bottom: 30px !important;
+        position: relative;
+    }
+
+    .img-fluid{
+        border-radius: 105px;
+        border: 8px solid #d5e4eb;
+        box-shadow: 0px 2px 8px 0px #0000001a;
+    }
+
+    .nav-collapse-php{
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .resume-date {
+        min-width: 10rem;
+    }
+    
+}
+
+.rightside-php{
+    padding-top: 70px;
+}
+
+.navbar-php{
+    z-index: 1;
+    position: fixed;
+    background-color: #007f9f;
+    width: 100%;
+    left: 0;
+}
+
+.navbar-nav .nav-link.active{
+    color:#fff;
+    font-weight: 700 !important;
+}
+.nav-link:hover{
+  color: #d5e4eb;
+}
+.nav-link{
+  padding: .5rem;
+  color: #00576f;
+}
+.nav-img{
+    height: 180px;
+    width: 180px;
+    top: -95px;
+    position: absolute;
+    left: 54px;
+}
+
+.my-6{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.detail{
+    border-radius: 20px;
+    background-color :#fafafa;
+    box-shadow: 0px 2px 5px #0000001a;
+    margin-bottom: 20px;
+}
+
+.detail:hover{
+    box-shadow: 0px 2px 8px #4a000030;
+}
+
+a{
+    text-decoration: unset;
+}
+
+span i {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    margin-right: .5rem;
+}
+
+.blockquote-footer{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+.php-fs{
+    font-size: 1.25rem;
+}
+
+.php-bookmark{
+    font-size: 16px;
+}
+
+.bookmarkBtn {
+    width: 130px;
+    height: 45px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+  }
+  
+  .IconContainer {
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(to bottom, rgb(255, 136, 255), rgb(172, 70, 255));
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: 0.3s;
+  }
+  
+  .icon {
+    border-radius: 1px;
+  }
+  
+  .text {
+    height: 100%;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 1;
+    transition-duration: 0.3s;
+    font-size: 1em;
+  }
+  
+  .bookmarkBtn:hover .IconContainer {
+    width: 120px;
+    transition-duration: 0.3s;
+  }
+  
+  .bookmarkBtn:hover .text {
+    transform: translate(10px);
+    width: 0;
+    font-size: 0;
+    transition-duration: 0.3s;
+  }
+  
+  .bookmarkBtn:active {
+    transform: scale(0.95);
+    transition-duration: 0.3s;
+  }
+  
+  .dev-icon-size i{
+    font-size: 3.5rem;
+    margin-right: 15px;
+    line-height: 1.5;
+  }
+  .tech-item{
+    font-size: .8rem;
+    padding: 3px 12px;
+    margin-right: 5px;
+    color: #fff;
+    border-radius: 14px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .card-body .btn{
+    border-radius: 13px;
+  }
+  .fa-check{
+    color: #3DAB62;
+  }
+  .card-body p.ff-barlow-m:hover{
+    color: #0d6efd !important
+  }
+
+  .live-view{
+    width: 100%;
+    background-color: #007f9f;
+    border-color: #007f9f;
+    background-image: radial-gradient(circle at center,#0a8bac 50%,transparent 50%);
+    background-repeat: no-repeat;
+    transition: background-size .3s;
+    background-size: 0 0;
+    background-position: 50% 50%;
+  }
+  .live-view:hover{
+    background-size: 200% 200%;
+  }
+
+  .btn-primary:hover{
+    background-color: #007f9f;
+    border-color: #007f9f;
+  }
+
+  .code-view{
+    color: #fff;
+    background-color: #b9bbbe;
+    border-color: #b9bbbe;
+    background-image: radial-gradient(circle at center,#caccce 50%,transparent 50%);
+    background-repeat: no-repeat;
+    transition: background-size .3s;
+    background-size: 0 0;
+    background-position: 50% 50%;
+  }
+  .code-view:hover{
+    background-size: 200% 200%;
+  }
+  .btn-gray:hover{
+    background-color: #b9bbbe;
+    border-color: #b9bbbe;
+  }
