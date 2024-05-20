@@ -89,6 +89,10 @@ body,html{
     left: 54px;
 }
 
+h3.exp:hover{
+  color: #007f9f;
+}
+
 .my-6{
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -136,7 +140,8 @@ span i {
     height: 45px;
     border-radius: 40px;
     border: 1px solid rgba(255, 255, 255, 0.349);
-    background-color: rgb(12, 12, 12);
+    /* background-color: rgb(12, 12, 12); */
+    background-color: #007f9f; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,7 +153,8 @@ span i {
   .IconContainer {
     width: 35px;
     height: 35px;
-    background: linear-gradient(to bottom, rgb(255, 136, 255), rgb(172, 70, 255));
+    /* background: linear-gradient(to bottom, rgb(255, 136, 255), rgb(172, 70, 255)); */
+    background: #d5e4eb;
     border-radius: 50px;
     display: flex;
     align-items: center;
