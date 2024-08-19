@@ -258,6 +258,7 @@ span i {
   }
 
   .code-view{
+    width: 100%;
     color: #fff;
     background-color: #b9bbbe;
     border-color: #b9bbbe;
